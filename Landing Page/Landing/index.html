@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Landing Page - App</title>
+
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick-theme.min.css">
+
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js"></script>
+  <script>
+    $(document).ready(function () {
+      $('.slider').slick();
+    });
+  </script>
+
+  <style>
+    h1 {
+        font-size: 24px;
+        font-weight: bold;
+    }
+    h2 {
+        color: #e62582;
+    }
+    p {
+        font-weight: medium;
+    }
+    body {
+      font-family: "PP Object Sans", sans-serif;
+    }
+
+    .slider {
+      height: 315px;
+      width: 1920px;
+      overflow: hidden;
+    }
+
+    .banner-slide img {
+      width: 100%;
+    }
+
+
+    .spacer {
+      margin-bottom: 50px;
+    }
+
+    ul {
+      list-style-type: none;
+      margin-left: -40px
+    }
+  </style>
+</head>
+
+<body style="background-color: #ffffff;">
+  <nav class="navbar navbar-expand-lg navbar-light mt-3">
+    <a class="navbar-brand text-light ml-5"><img src="img/Logo02.png" alt="Logo" width="200"></a>
+    <div class="collapse navbar-collapse " id="navbarNav">
+      <ul class="navbar-nav ml-auto mr-3">
+        <li class="nav-item">
+          <a class="nav-link text-light" href="#"
+            style="background:  #e62582 ; -webkit-background-clip: text; -webkit-text-fill-color: transparent;">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-light" href="#"
+            style="background:  #e62582 ; -webkit-background-clip: text; -webkit-text-fill-color: transparent;">Comunidad</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-light" href="#"
+            style="background:  #e62582 ; -webkit-background-clip: text; -webkit-text-fill-color: transparent;">Marketplace</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-light" href="#"
+            style="background:  #e62582 ; -webkit-background-clip: text; -webkit-text-fill-color: transparent;">Contacto</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+
+  <div class="slider mt-3 mb-5" id="slider">
+    <div>
+      <img src="img/banner01.jpg" alt="Slide 1">
+    </div>
+    <div>
+      <img src="img/banner02.jpg" alt="Slide 2">
+    </div>
+    <div>
+      <img src="img/banner03.jpg" alt="Slide 3">
+    </div>
+  </div>
+
+  <div class="container mt-5 mb-5">
+    <div class="row mt-5">
+      <div class="col-md-4 ml-4 mt-5">
+        <img src="img/mockup01.png" class="img-fluid" alt="Imagen" style="height: 420px;
+        width: 220px;">
+      </div>
+      <div class="col-md-5 mt-5 mb-5 ml-5" style="font-size: 12pt; color: rgb(0, 0, 0);">
+        <h1>¡La mayor database de música cabe en tu bolsillo!</h1>
+          
+          <p>Únete a la database de música más grande de la red. Disfruta de nuestro apartado de compra/venta entre usuarios,
+            reserva tus obras y discos favoritos, mantente informado sobre actualidad del mundo de la música, conciertos, festivales y música en directo en tu zona.<br>
+
+          <br>Todo esto y mucho más al alcance de un clic, disfruta de Discogs en tu dispositivo móvil Ios o Android de forma gratuita.
+        </p>
+      </div>
+    </div>
+  </div>
+
+  <div class="container">
+    <div class="row justify-content-center">
+      <div class="col-md-8 mt-5 mb-5">
+        <div class="embed-responsive embed-responsive-16by9">
+          <video class="embed-responsive-item" controls>
+            <source src="img/VídeoInteractivos_AdrianBJ.mp4" type="video/mp4">
+          </video>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="row mt-5">
+    <div class="col-md-4 ml-auto mr-5">
+      <a class="btn btn-lg btn-block text-white" href="https://apps.apple.com/app/apple-store/id1036449551"
+        style="background: #e62582;">Download on the App Store</a>
+    </div>
+    <div class="col-md-4 mr-auto ml-5">
+      <a class="btn btn-lg btn-block text-white" href="https://play.google.com/store/apps/details?id=com.discogs.app&referrer=utm_source%3Ddiscogs-app-page"
+        style="background:#e62582 ;">Download on Google Play</a>
+      <div class="spacer"></div>
+    </div>
+
+  </div>
+
+  <div class="row mt-4 ml-4 text-light">
+    <div class="col-md-3 ml-auto mt-5 mb-5 mr-5">
+      <h2 style="font-size: 18pt;">Discogs</h2>
+      <ul>
+        <li><a href="https://www.discogs.com/company" style="color: #000000; font-size: 10pt;">Quiénes somos</a></li>
+        <li><a href="https://www.discogs.com/digs" style="color: #000000; font-size: 10pt;">Discogs Digs</a></li>
+        <li><a href="https://www.discogs.com/company/careers" style="color: #000000; font-size: 10pt;">Ofertas de Empleo</a></li>
+
+        <li><a href="https://www.discogs.com/developers" style="color: #000000; font-size: 10pt;">API</a></li>
+      </ul>
+    </div>
+    <div class="col-md-3 mr-auto mt-5 mb-5 ml-5">
+      <h2 style="font-size: 18pt;">Soporte</h2>
+      <ul list-style-type="none">
+        <li><a href="https://support.discogs.com/" style="color: #000000; font-size: 10pt;">Ayuda y soporte</a></li>
+        <li><a href="https://www.discogs.com/forum/" style="color: #000000; font-size: 10pt;">Foro</a></li>
+        <li><a href="https://www.discogs.com/#show_keyboard_shortcuts" style="color: #000000; font-size: 10pt;">Teclas de acceso rápido</a></li>
+        <li><a href="https://support.discogs.com/hc/articles/360004016474-Overview-of-Submission-Guidelines-for-Releases" style="color: #000000; font-size: 10pt;">Normas de la Base de Datos</a></li>
+        <li><a href="https://www.discogs.com/shipping" style="color: #000000; font-size: 10pt;">Envío de Discogs</a></li>
+      </ul>
+    </div>
+  <div class="col-md-3 ml-auto mt-5 mb-5 mr-5">
+    <h2 style="font-size: 18pt;">On The Go</h2>
+    <ul>
+      <li><a class="app-store-badge" href="https://itunes.apple.com/app/apple-store/id1036449551?pt=117888292&amp;ct=discogs-app-page&amp;mt=8">
+        <img width="auto" height="44" alt="Descarga ahora de la App Store" src="img/app-store-badge.svg">   
+    </a></li>
+    <li><a class="app-store-badge" href="https://play.google.com/store/apps/details?id=com.discogs.app&amp;referrer=utm_source%3Ddiscogs-app-page">
+        <img width="auto" height="44" alt="Descárgalo ahora de Google Play" src="img/google-play-badge.png">
+    </a></li>
+
+    </ul>
+  </div>
+</div>
+</body>
+
+</html>
+
+
