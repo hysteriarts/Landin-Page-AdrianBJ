@@ -35,9 +35,28 @@
 
     .slider {
       height: 315px;
-      width: 1920px;
+      width: 100%;
       overflow: hidden;
     }
+
+.slider img {
+  width: 100%; /* Establece el ancho de las imágenes al 100% del contenedor */
+  height: auto; /* Permite que la altura se ajuste automáticamente proporcionalmente al ancho */
+}
+
+/* Media queries para ajustar el tamaño del slider en diferentes tamaños de pantalla */
+
+@media (max-width: 768px) {
+  .slider {
+    width: 80%; /* Por ejemplo, reduce el ancho del slider al 80% del contenedor en pantallas de hasta 768px */
+  }
+}
+
+@media (max-width: 576px) {
+  .slider {
+    width: 100%; /* Por ejemplo, establece el ancho del slider al 100% del contenedor en pantallas de hasta 576px */
+  }
+}
 
     .banner-slide img {
       width: 100%;
@@ -92,6 +111,7 @@
       <img src="img/Banner03.jpg" alt="Slide 3">
     </div>
   </div>
+
 
   <div class="container mt-5 mb-5">
     <div class="row mt-5">
